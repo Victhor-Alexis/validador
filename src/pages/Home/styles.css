@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 2%;
+}
+
+.container h2 {
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    color: #0E86D4;
+    margin-top: 3rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3rem;
+}
+
+.central_block {
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.central_block input {
+    width: 24rem;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 21px;
+    margin: 7px 0;
+    border: 1px solid #999;
+}
+
+.central_block input[type="submit"] {
+    cursor: pointer;
+    background-color: #0E86D4;
+    color: white;
+}
+
+.central_block input[type="submit"]:hover {
+    background-color: #0074B7;
+}
